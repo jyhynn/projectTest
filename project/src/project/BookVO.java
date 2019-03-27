@@ -9,4 +9,11 @@ public class BookVO {
 		super();
 		// TODO Auto-generated constructor stub
 	}
+	public BookVO(String code, String title, String author, int price) {
+		super();
+		this.code = code;
+		this.title = title;
+		this.author = author;
+		this.price = price;
+	}
 }
